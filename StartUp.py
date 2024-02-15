@@ -36,7 +36,7 @@ st.write('Input Variables')
 input_var = pd.DataFrame({'R&D Spend': [rd_spend], 'Administration': [admin], 'Marketing Spend': [mkt_spend]})
 st.dataframe(input_var)
 
-model = joblib.load('startUpModel.pkl')
+model = joblib.load('StartUpModel.pkl')
 
 
 predicter =st.button('Predict Profit')
